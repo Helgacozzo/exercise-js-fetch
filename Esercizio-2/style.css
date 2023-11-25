@@ -1,0 +1,42 @@
+.root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* CARD STYLE*/
+
+figure {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#resultsDiv {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#resultsdiv,ul{
+    list-style: none;
+}
+
+.div{
+    padding-left: 20px;
+}
