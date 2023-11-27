@@ -13,11 +13,17 @@ window.addEventListener('load', () => {
     const resultsDiv = document.getElementById('resultsDiv');
 
     const listaBarzellette = (barzellette) => {
+
         const ul = document.createElement('ul');
 
         barzellette.forEach(barzelletta => {
             const li = document.createElement('li');
-            li.innerHTML = `<figure>${barzelletta.setup} ${barzelletta.delivery}</figure>`;
+            li.innerHTML = `
+            <figure>
+                ${barzelletta.setup} ${barzelletta.delivery}
+            </figure>
+            `;
+
             ul.appendChild(li);
         });
 
